@@ -2,6 +2,8 @@
 
 A simple Vue + Parcel setup for quick prototyping
 
+![alt text](https://i.imgur.com/4TJYoYq.png)
+
 ## Getting started
 
 ``` bash
