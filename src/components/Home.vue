@@ -1,5 +1,6 @@
 <template>
 	<div class="text-xs-center">
+		<img src="../assets/logo.png" alt="vue-logo" class="logo">
 		<p class="display-3">
 			{{msg}}
 		</p>
@@ -16,3 +17,9 @@
 		})
 	}
 </script>
+
+<style type="css">
+	.logo {
+		width: 20%;
+	}
+</style>
