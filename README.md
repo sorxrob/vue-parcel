@@ -17,3 +17,8 @@ $ npm run dev
 # build for production
 $ npm run build
 ```
+
+## What's included
+* [Vue Router](https://router.vuejs.org) - official router for vue
+* [Vuetify](https://vuetifyjs.com/) - collection of material based components for vue
+
