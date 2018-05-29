@@ -2,7 +2,7 @@
   <div id="app">
     <v-app>
       <v-toolbar color="primary" dark app>
-        <v-toolbar-title>Basic Parcel + Vue Setup</v-toolbar-title>
+        <v-toolbar-title>{{title}}</v-toolbar-title>
       </v-toolbar>
       <v-content>
         <v-container>
@@ -18,7 +18,7 @@ export default {
   name: 'app',
   data () {
     return {
-      msg: 'Welcome to Your Vue.js App!'
+      title: 'Basic Vue + Parcel Setup'
     }
   }
 }

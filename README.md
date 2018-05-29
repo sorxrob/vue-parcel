@@ -2,7 +2,7 @@
 
 A simple Vue + Parcel setup for quick prototyping
 
-![alt text](https://i.imgur.com/4TJYoYq.png)
+![alt text](https://i.imgur.com/gzT633c.png)
 
 ## Getting started
 

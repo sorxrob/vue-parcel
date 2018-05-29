@@ -13,7 +13,7 @@
 		name: 'hello',
 		data: () => ({
 			msg: 'Hello World!',
-			content: 'A simple Parcel + Vue setup for quick prototyping'
+			content: 'A simple Vue + Parcel setup for quick prototyping'
 		})
 	}
 </script>
