@@ -16,11 +16,9 @@
 <script>
 export default {
   name: 'app',
-  data () {
-    return {
-      title: 'Basic Vue + Parcel Setup'
-    }
-  }
+  data: () => ({
+    title: 'Basic Vue + Parcel Setup'
+  })
 }
 </script>
 
