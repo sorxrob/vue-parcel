@@ -3,6 +3,11 @@
     <v-app>
       <v-toolbar color="primary" dark app>
         <v-toolbar-title>{{title}}</v-toolbar-title>
+        <v-spacer></v-spacer>
+        <v-toolbar-items>
+          <v-btn flat to="/">Home</v-btn>
+          <v-btn flat to="/about">About</v-btn>
+        </v-toolbar-items>
       </v-toolbar>
       <v-content>
         <v-container>
