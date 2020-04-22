@@ -1,34 +1,35 @@
 {
-  "name": "vue-parcel",
-  "version": "0.0.1",
-  "description": "A simple Vue + Parcel setup for quick prototyping",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "parcel index.html",
-    "build": "parcel build index.html",
-    "watch": "parcel watch index.html"
-  },
-  "keywords": [
-    "parcel",
-    "parcel-bundler",
-    "vue",
-    "vuejs",
-    "parcel-vue"
-  ],
-  "author": "Robert Soriano <sorianorobertc@gmail.com>",
-  "license": "MIT",
-  "dependencies": {
-    "vue": "^2.6.6",
-    "vue-hot-reload-api": "^2.3.2",
-    "vue-router": "^3.0.2",
-    "vuetify": "^1.5.0"
-  },
-  "devDependencies": {
-    "@vue/component-compiler-utils": "^2.5.2",
-    "babel-core": "^6.26.3",
-    "babel-preset-env": "^1.7.0",
-    "parcel-bundler": "^1.11.0",
-    "vue-template-compiler": "^2.6.6"
-  }
+	"name": "vue-parcel",
+	"version": "0.0.1",
+	"description": "A simple Vue + Parcel setup for quick prototyping",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"dev": "parcel index.html",
+		"build": "parcel build index.html"
+	},
+	"keywords": [
+		"parcel",
+		"parcel-bundler",
+		"vue",
+		"vuejs",
+		"parcel-vue"
+	],
+	"author": "Robert Soriano <sorianorobertc@gmail.com>",
+	"license": "MIT",
+	"dependencies": {
+		"vue": "^2.6.11",
+		"vue-hot-reload-api": "^2.3.4",
+		"vue-router": "^3.1.6"
+	},
+	"devDependencies": {
+		"@babel/preset-env": "^7.9.5",
+		"@vue/component-compiler-utils": "^3.1.2",
+		"babel-core": "^6.26.3",
+		"babel-preset-env": "^1.7.0",
+		"eslint": "^6.8.0",
+		"eslint-plugin-vue": "^6.2.2",
+		"parcel-bundler": "^1.12.4",
+		"vue-template-compiler": "^2.6.11"
+	}
 }

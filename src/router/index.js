@@ -6,16 +6,17 @@ import About from '../view/About';
 Vue.use(Router);
 
 export default new Router({
-  routes: [
-    {
-      path: '/',
-      name: 'Home',
-      component: Home
-    },
-    {
-      path: '/about',
-      name: 'About',
-      component: About
-    }
-  ]
+	mode: 'history',
+	routes: [
+		{
+			path: '/',
+			name: 'Home',
+			component: Home,
+		},
+		{
+			path: '/about',
+			name: 'About',
+			component: About,
+		},
+	],
 });

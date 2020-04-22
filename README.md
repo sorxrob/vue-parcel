@@ -2,11 +2,9 @@
 
 A simple Vue + Parcel setup for quick prototyping
 
-![alt text](https://i.imgur.com/hAQsLC4.png)
-
 ## Getting started
 
-``` bash
+```bash
 # clone repo
 $ git clone https://github.com/sorxrob/vue-parcel.git
 
@@ -21,6 +19,5 @@ $ npm run build
 ```
 
 ## What's included
-* [Vue Router](https://router.vuejs.org) - official router for vue
-* [Vuetify](https://vuetifyjs.com/) - collection of material based components for vue
 
+- [Vue Router](https://router.vuejs.org) - official router for vue

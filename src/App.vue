@@ -1,32 +1,17 @@
 <template>
-  <div id="app">
-    <v-app>
-      <v-toolbar color="primary" dark app>
-        <v-toolbar-title>{{title}}</v-toolbar-title>
-        <v-spacer></v-spacer>
-        <v-toolbar-items>
-          <v-btn flat to="/">Home</v-btn>
-          <v-btn flat to="/about">About</v-btn>
-        </v-toolbar-items>
-      </v-toolbar>
-      <v-content>
-        <v-container>
-          <router-view></router-view>
-        </v-container>
-      </v-content>
-    </v-app>
-  </div>
+	<div id="app">
+		<router-link to="/">Home</router-link>
+		<router-link to="/about">About</router-link>
+		<router-view />
+	</div>
 </template>
 
 <script>
 export default {
-  name: 'app',
-  data: () => ({
-    title: 'Basic Vue + Parcel Setup'
-  })
-}
+	name: 'app',
+};
 </script>
 
 <style lang="css">
-  /* can be css/less/sass */
+/* can be css/less/sass */
 </style>
