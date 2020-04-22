@@ -21,3 +21,4 @@ $ npm run build
 ## What's included
 
 - [Vue Router](https://router.vuejs.org) - official router for vue
+- [Vuex](https://vuex.vuejs.org/) - state management pattern + library for Vue.js applications
